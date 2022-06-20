@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="chatwindow.css">
     <link rel="stylesheet" href="sidebar.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="chatwindow.css">
+    <title></title>
 </head>
 <body>
     <div class="container">
@@ -18,21 +18,22 @@
           <button class="sideButton">+ Group</button>
           <button class="sideButton">+ Person</button>
         </div>
-        <div class="inputContainer">
-          <form>
-            <label for="inputText"></label>
-            <input
-              class="inputText"
-              type="text"
-              name="inputText"
-              id="inputText"
-            >
-              Say Hi!
-            </input>
-            <input type="submit" name="submit">
-              arrow
-            </input>
-          </form>
+        <div class="chat-window">
+          <header><div class="username">Username</div></header> 
+          <div class="messages-container"></div>
+            <form class="input-container">              
+              <input
+                class="input-text"
+                type="text"
+                name="input-text"
+                id="input-text"
+                placeholder="Say Hi!"
+              >
+              </input>
+              <input type="submit" name="submit" value=">>">
+              </input>
+              <!-- <input type="image" src="images/submit.svg" alt="Submit" width="48" height="48"> -->
+            </form>
         </div>
       </div>
 </body>
