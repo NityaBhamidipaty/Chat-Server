@@ -41,7 +41,7 @@ header .username {
 
 .messages-container {
   height: 90%;
-  background-color: #f4f4f4;
+  background-color: #d8e2ecd8;
   overflow-y: auto;
 }
 
@@ -72,4 +72,26 @@ header .username {
   border-radius: 5px;
   cursor: pointer;
   color: #42a5f5;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.msg {
+  background-color: #70abdb;
+  width: 40%;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.left .msg {
+  background-color: #f4f4f4;
 }
