@@ -1,37 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.sidebar{
-
-    background-color: #1f2833;
-    width: 300px;
-    height: 1000px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.sidebar {
+  background-color: #1f2833;
+  position: relative;
+  height: 100%;
+  flex: 14%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.profile{
-    /* background-color: aqua; */
-    justify-content: space-between;
-    display: flex;
-    padding: 10px;
-    color: #fff;
-    align-items: center;
-
+.profile {
+  /* background-color: aqua; */
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  color: #fff;
+  align-items: center;
 }
 
-.userName{
-    display: flex;
+.userName {
+  display: flex;
 }
 
-.setting{
-    display: flex;
-    border-radius: 5px;
-    padding: 5px 8px;
-    cursor: pointer;
-    text-decoration: none;
+.setting {
+  display: flex;
+  border-radius: 5px;
+  padding: 5px 8px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /* CSS */
@@ -63,10 +63,8 @@
   }
 }
 
-.sideButton{
-    display: block;
-    width: 100%;
-    padding: 7px;
+.sideButton {
+  display: block;
+  width: 100%;
+  padding: 7px;
 }
-
-
